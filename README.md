@@ -26,6 +26,4 @@ Based on the [Low-Budget Password Strength Estimator](https://github.com/dropbox
 
 ## LINKS ##
 
-* **[Home Page](http://jeffreykemp.github.io/jk64-plugin-passwordstrength/)**
-
 * For more info refer to the **[WIKI](https://github.com/jeffreykemp/jk64-plugin-passwordstrength/wiki)**
