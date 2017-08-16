@@ -1,0 +1,35 @@
+{
+  "name" : "Password Strength Estimator",
+  "version" : "0.1",
+  "description" : "Password Strength Estimator",
+  "keywords" : ["password strength check estimation"],
+  "homepage" : "https://github.com/jeffreykemp/jk64-plugin-passwordstrength",
+  "bugs" : {
+    "url" : "https://github.com/jeffreykemp/jk64-plugin-passwordstrength/issues",
+    "email" : "jeffrey.kemp@jk64.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Jeffrey Kemp",
+    "email" : "jeffrey.kemp@jk64.com",
+    "url" : "http://jeffkemponoracle.com/",
+    "twitter" : "jeffreykemp",
+    "donationUrl" : "https://paypal.me/JEFFREYKEMP/3"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/jeffreykemp/jk64-plugin-passwordstrength"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["5.0.4"],
+      "plugin" : {
+        "internalName" : "COM.ZXCVBN_PASSWORD_STRENGTH",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=ZXCVBN&c=JK64",
+        "previewImage" : "https://raw.githubusercontent.com/jeffreykemp/jk64-plugin-passwordstrength/master/src/preview.jpg"
+      }
+    }
+  }
+}
