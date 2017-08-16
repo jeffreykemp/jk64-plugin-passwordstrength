@@ -27,7 +27,7 @@ prompt APPLICATION 590 - Demo Password Strength Estimator
 -- Application Export:
 --   Application:     590
 --   Name:            Demo Password Strength Estimator
---   Date and Time:   11:33 Wednesday August 16, 2017
+--   Date and Time:   11:50 Wednesday August 16, 2017
 --   Exported By:     JEFF
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -39,7 +39,7 @@ prompt APPLICATION 590 - Demo Password Strength Estimator
 --   Pages:                      2
 --     Items:                    3
 --     Processes:                4
---     Regions:                  3
+--     Regions:                  4
 --     Buttons:                  1
 --     Dynamic Actions:          1
 --   Shared Components:
@@ -111,7 +111,7 @@ wwv_flow_api.create_flow(
 ,p_rejoin_existing_sessions=>'N'
 ,p_csv_encoding=>'Y'
 ,p_last_updated_by=>'JEFF'
-,p_last_upd_yyyymmddhh24miss=>'20170816113156'
+,p_last_upd_yyyymmddhh24miss=>'20170816115033'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_ui_type_name => null
 );
@@ -7856,7 +7856,7 @@ wwv_flow_api.create_page(
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'JEFF'
-,p_last_upd_yyyymmddhh24miss=>'20170816112826'
+,p_last_upd_yyyymmddhh24miss=>'20170816115033'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(122045124818095023)
@@ -7866,6 +7866,20 @@ wwv_flow_api.create_page_plug(
 ,p_plug_display_sequence=>10
 ,p_include_in_reg_disp_sel_yn=>'Y'
 ,p_plug_display_point=>'BODY'
+,p_plug_query_options=>'DERIVED_REPORT_COLUMNS'
+,p_attribute_01=>'N'
+,p_attribute_02=>'HTML'
+);
+wwv_flow_api.create_page_plug(
+ p_id=>wwv_flow_api.id(122045696237095028)
+,p_plug_name=>'About'
+,p_region_template_options=>'#DEFAULT#:t-Alert--colorBG:t-Alert--horizontal:t-Alert--defaultIcons:t-Alert--info'
+,p_plug_template=>wwv_flow_api.id(125754094422684374)
+,p_plug_display_sequence=>20
+,p_include_in_reg_disp_sel_yn=>'Y'
+,p_plug_new_grid_row=>false
+,p_plug_display_point=>'BODY'
+,p_plug_source=>'Refer to <a href="https://github.com/jeffreykemp/jk64-plugin-passwordstrength">https://github.com/jeffreykemp/jk64-plugin-passwordstrength</a>'
 ,p_plug_query_options=>'DERIVED_REPORT_COLUMNS'
 ,p_attribute_01=>'N'
 ,p_attribute_02=>'HTML'
