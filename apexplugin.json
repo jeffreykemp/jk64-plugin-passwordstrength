@@ -28,7 +28,7 @@
         "internalName" : "COM.ZXCVBN_PASSWORD_STRENGTH",
         "type" : "dynamic action",
         "demo" : "https://apex.oracle.com/pls/apex/f?p=ZXCVBN&c=JK64",
-        "previewImage" : "https://raw.githubusercontent.com/jeffreykemp/jk64-plugin-passwordstrength/master/src/preview.jpg"
+        "previewImage" : "https://raw.githubusercontent.com/jeffreykemp/jk64-plugin-passwordstrength/master/src/preview.png"
       }
     }
   }
