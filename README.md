@@ -1,4 +1,4 @@
-# Password Strength Estimator
+# Password Strength Estimator [![APEX Community](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/78c5adbe/badges/apex-community-badge.svg)](<LINK>) [![APEX Plugin](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/b7e95341/badges/apex-plugin-badge.svg)](<LINK>)
 **A Dynamic Action Plugin for Oracle Application Express**
 
 When prompting your users to change their password, give them immediate feedback on how strong it (probably) is.
