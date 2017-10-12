@@ -18,7 +18,7 @@ Based on the [Low-Budget Password Strength Estimator](https://github.com/dropbox
 ## INSTALLATION ##
 
 1. Download the **[latest release](https://github.com/jeffreykemp/jk64-plugin-passwordstrength/releases/latest)**
-2. Import plugin **dynamic_action_plugin_com_zxcvbn_password_strength.sql** to your Apex app
+2. Import plugin **dynamic_action_plugin_com_zxcvbn_password_strength.sql** to your APEX app
 3. On the page with the password input item, add a Dynamic Action:
       * **Event** = Page Load
       * **True Action** = Password Strength Estimator [Plug-In]
