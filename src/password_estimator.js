@@ -57,7 +57,7 @@ init : function() {
        ,thisId = $(vaffectedElement).attr("id");
     apex.debug("password_estimator: adding result span " + thisId);
     var resId = thisId+"_verdict";
-    $(vaffectedElement).after("<span class='password_estimator' id='"+resId+"'></span>");
+    $(vaffectedElement).parent().after("<span class='password_estimator' id='"+resId+"'></span>");
     var item = document.getElementById(thisId);
     item.addEventListener('input', function(e) {
       password_estimator.on_input(e, daThis.action);
